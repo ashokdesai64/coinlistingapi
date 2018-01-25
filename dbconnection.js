@@ -1,10 +1,11 @@
 var mysql=require('mysql');
 var connection=mysql.createPool({
  
-host:'localhost',
+host:'35.176.71.92',
+port:'3306',
  user:'root',
- password:'',
- database:'currency_data'
+ password:'coinlistin@1234',
+ database:'coinlisting'
  
 });
  module.exports=connection;
